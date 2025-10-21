@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h1 {
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+.hero .btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 30px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 25px;
+    font-size: 1rem;
+}
+
+.hero .btn:hover {
+    background-color: #0056b3;
+}
+
+#sobre-mi {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #fff;
+}
+
+#sobre-mi h2 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+#sobre-mi p {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+#servicios {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+}
+
+#servicios .servicio {
+    max-width: 300px;
+    text-align: center;
+}
+
+#servicios h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+#servicios p {
+    font-size: 1rem;
+}
+
+#proyectos {
+    background-color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#proyectos h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.grid-proyectos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.proyecto {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.proyecto img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.proyecto h3 {
+    margin-top: 15px;
+}
+
+.proyecto .btn {
+    margin-top: 10px;
+}
+
+#habilidades {
+    background-color: #f4f4f4;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#habilidades h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#habilidades ul {
+    list-style: none;
+}
+
+#habilidades li {
+    font-size: 1.1rem;
+    margin: 10px 0;
+}
+
+#contacto {
+    background-color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#contacto h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#contacto p {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+#contacto a {
+    color: #007bff;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
