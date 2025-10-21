@@ -1,0 +1,9 @@
+:root {
+    --color-primario: #007bff;
+    --color-primario-hover: #0056b3;
+    --color-texto: #333;
+    --color-fondo: #f4f4f4;
+    --color-blanco: #fff;
+    --color-header-footer: #333;
+    --fuente-principal: Arial, sans-serif;
+}
