@@ -6,4 +6,14 @@
     --color-blanco: #fff;
     --color-header-footer: #333;
     --fuente-principal:'Noto Sans', sans-serif;
+    --color-textohero: #fff;
+}
+body.dark-mode {
+    --color-primario: #007bff;
+    --color-primario-hover: #0056b3;
+    --color-texto: #f0f0f0;
+    --color-fondo: #121212;
+    --color-blanco: #1e1e1e;
+    --color-header-footer: #1a1a1a;
+    --color-textohero: #fff;
 }

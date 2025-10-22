@@ -6,7 +6,7 @@ body {
 }
 
 h1 {
-    color: var(--color-blanco);
+    color: var(--color-textohero);
 }
 
 a {
@@ -28,6 +28,7 @@ header {
 .hero p {
     font-size: 1.2rem;
     margin-top: 10px;
+    color: var(--color-textohero);
 }
 
 .hero .btn {
@@ -35,7 +36,7 @@ header {
     margin-top: 20px;
     padding: 10px 30px;
     background-color: var(--color-primario);
-    color: var(--color-blanco);
+    color: var(--color-textohero);
     border-radius: 25px;
     font-size: 1rem;
 }
@@ -164,7 +165,18 @@ header {
 
 footer {
     background-color: var(--color-header-footer);
-    color: var(--color-blanco);
+    color: var(--color-textohero);
     text-align: center;
     padding: 20px;
+}
+
+#toggle-dark {
+    position: absolute; 
+    top: 1rem; 
+    right: 1rem; 
+    z-index: 1000;
+    font-size: 2rem;
+    background: transparent;
+    border: none;
+    cursor: pointer;
 }

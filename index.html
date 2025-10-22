@@ -10,8 +10,8 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-
     <header>
+        <button id="toggle-dark">🌙</button>
         <div class="hero">
             <h1>Hola, soy Eric Hernández</h1>
             <p>Diseñador gráfico, desarrollador web y técnico en mantenimiento informático.</p>
@@ -84,6 +84,27 @@
     <footer>
         <p>Eric Hernández. Sin licencia.</p>
     </footer>
+    <script>
+        const toggleBtn = document.getElementById('toggle-dark');
+        toggleBtn.addEventListener('click', () => {
+            document.body.classList.toggle('dark-mode');
 
+            if (document.body.classList.contains('dark-mode')) {
+                toggleBtn.textContent = '☀️';
+            } else {
+                toggleBtn.textContent = '🌙';
+            }
+        });
+
+        if (localStorage.getItem('modo') === 'oscuro') {
+            document.body.classList.add('dark-mode');
+            toggleBtn.textContent = '☀️';
+        }
+
+        toggleBtn.addEventListener('click', () => {
+            const isDark = document.body.classList.contains('dark-mode');
+            localStorage.setItem('modo', isDark ? 'oscuro' : 'claro');
+        });
+    </script>
 </body>
 </html>
